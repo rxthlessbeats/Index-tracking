@@ -15,6 +15,23 @@ Index tracking, also known as passive management, is a strategy used by investme
 
 # How we choose the components of portfolio?
 
+## 1. `Index tracking2.ipynb`
+
+We selected S&P 500 (^GSPC) as the goal index and the other 10 companies that are randomly chosen.  And we will use the companies stock price to find the optimal weight. The companies includes:
+
+1. AAPL 
+2. MSFT 
+3. AMZN
+4. JNJ
+5. JPM
+6. PG
+7. XOM
+8. DIS
+9. V
+10. KO
+
+## 2. `Index tracking3.ipynb`
+
 We chosed 11 S&P indexs to run the index tracking. In the code, we will select each of the S&P index as the goal index, and try to find optimal weights for the other 10 indexs to minimize the varience between the goal index and the portfolio.
 
 Here are the ten index:
