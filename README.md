@@ -13,9 +13,23 @@ Index tracking, also known as passive management, is a strategy used by investme
 
 - **Performance:** It's difficult for active managers to consistently outperform the market over long periods. Therefore, simply tracking the market index tends to generate competitive returns over time.
 
-# How to choose the components of portfolio?
+# How we choose the components of portfolio?
 
+We chosed 11 S&P indexs to run the index tracking. In the code, we will select each of the S&P index as the goal index, and try to find optimal weights for the other 10 indexs to minimize the varience between the goal index and the portfolio.
 
+Here are the ten index:
+
+1. SPXESFUT	
+2. SPXESUP	
+3. SPXETCT (Heavy)	
+4. SPXETCT (Light)	
+5. SPXETCT (Moderate)	
+6. SPXETCT	
+7. SPXELSUP	
+8. SPRESUP	
+9. SPMESUP	
+10. SPSESUP	
+11. S&P United States LargeMidCap ESG Index
 
 # How to solve the optimal weights for components?
 # Performance
